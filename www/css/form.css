@@ -1,0 +1,101 @@
+#content_wrapper *{
+	font-family: Open Sans;
+}
+
+#content_wrapper{
+	margin-bottom: 9.5vh;
+	padding:0;
+	z-index: 0;
+}
+
+h2{
+	text-align: center;
+	font-family: Raleway;
+	font-size: 2em;
+}
+
+
+fieldset>p>label{
+	width: 10vw;
+
+	margin-left: 2vw;
+	vertical-align: top;
+}
+
+fieldset>p>input{
+	line-height: 2em;
+
+}
+
+fieldset>p{
+	margin-bottom: 3vh;
+	margin-top: 2vh;
+}
+
+
+fieldset>legend{
+	width: auto;
+	margin-left: 3vw;
+	padding: 0 5px 0 5px;
+	border: none;
+}
+
+fieldset:nth-child(2){
+	border: none;
+}
+
+fieldset{
+	margin-bottom: 2vh;
+	border: 2px #FFB421 solid;
+}
+
+textarea{
+	margin-left:2vw;
+}
+
+article{
+	margin-top: 10px;
+}
+
+article:first-child{
+	margin-top: 0;
+}
+
+article:first-child>p{
+	margin-left: 10px;
+}
+
+article>p{
+	padding: 0 10px 0 10px;
+}
+
+.button{
+	text-align: center;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+}
+
+.button>button{
+	border-radius: 5px;
+	line-height: 2em;
+	color: #FFFFFF;
+	padding: 2px;
+	background-color: #FFB421;
+	border:transparent;
+}
+
+#newsletter>input[type=checkbox]{
+	float: right;
+
+}
+
+#copyright{
+	clear: left;
+	float: right;
+	margin-right:15%;
+}
+
+#copyright:hover{
+	color: #FFFFFF;
+	cursor:default;
+}
