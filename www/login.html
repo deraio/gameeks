@@ -80,26 +80,29 @@
 	<section id="content_wrapper" class="container-fluid">
 		<div id="contenu" class="col-xs-10 col-xs-offset-1">
 			<article class="col-xs-12">
+				<div class="col-xs-12"><hr></div>
 				<form action="http://real-mmi-grenoble.fr/tmp/testformulaire2.php" method="post">
+				
 					<fieldset>
 						<legend>Déja inscrit ? Connectez-vous !</legend>
-						<p>
-							<label for="Pseudo_mail">Identifiant</label>
-							<input type="text" id="Pseudo_mail" name="pseudo" placeholder="Pseudo/Adresse e-mail">
+						<p class="row">
+							<label for="Pseudo_mail" class="col-xs-3">Identifiant</label>
+							<input type="text" id="Pseudo_mail" name="pseudo" placeholder="Pseudo/Adresse e-mail" class="col-xs-3">
 							
 						</p>
-						<p>
-							<label for="password">Mot de Passe</label>
-							<input type="password" id="password" name="mot_de_passe">
+						<p class="row">
+							<label for="password" class="col-xs-3">Mot de Passe</label>
+							<input type="password" id="password" name="mot_de_passe" class="col-xs-3">
 						</p>
-						<p class="button">
+						<p class="button"  class=" row col-xs-3">
 						<button id="Envoi" type="submit">Se connecter</button>
 						</p>
 					</fieldset>
 				</form>
 			</article>
 			<article class="col-xs-12">
-				<p>
+				<div class="col-xs-12"><hr></div>
+				<p id="else">
 					Toujours pas inscrit ? Rejoignez la communauté Gameeks pour bénéficier d'avantages personnalisés et participer à la vie du forum et du blog !
 				</p>
 				<form action="http://real-mmi-grenoble.fr/tmp/testformulaire2.php" method="post">

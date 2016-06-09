@@ -69,6 +69,10 @@ article>p{
 	padding: 0 10px 0 10px;
 }
 
+article>div hr {
+	border:transparent;
+	padding: 20 0 10 0;
+}
 .button{
 	text-align: center;
 	margin-bottom: 10px;
@@ -84,9 +88,9 @@ article>p{
 	border:transparent;
 }
 
-#newsletter>input[type=checkbox]{
-	float: right;
-
+#else{
+	font-size:1.3em;
+	text-align: center;
 }
 
 #copyright{
